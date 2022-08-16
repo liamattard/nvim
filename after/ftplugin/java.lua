@@ -14,17 +14,14 @@ local config = {
     '--add-modules=ALL-SYSTEM',
     '--add-opens', 'java.base/java.util=ALL-UNNAMED',
     '--add-opens', 'java.base/java.lang=ALL-UNNAMED',
-
-    '-javaagent:/home/liam-epam/.m2/repository/org/projectlombok/lombok/1.18.22/lombok-1.18.22.jar',
-    --'-Xbootclasspath/a:/home/liam-epam/.m2/repository/org/projectlombok/lombok/1.18.22/lombok-1.18.22.jar',
-    '-jar', '/home/liam-epam/java_language_server/plugins/org.eclipse.equinox.launcher_1.6.400.v20210924-0641.jar',
-
-    '-configuration', '/home/liam-epam/java_language_server/config_linux/',
+    '-javaagent:/home/liamattard/.m2/repository/org/projectlombok/lombok/1.18.24/lombok-1.18.24.jar',
+    '-jar', '/home/liamattard/Documents/gitProjects/eclipse.jdt.ls/org.eclipse.jdt.ls.product/target/repository/plugins/org.eclipse.equinox.launcher_1.6.400.v20210924-0641.jar',
+    '-configuration', '/home/liamattard/Documents/gitProjects/eclipse.jdt.ls/org.eclipse.jdt.ls.product/target/repository/config_linux/',
 
 
     -- 💀
     -- See `data directory configuration` section in the README
-    '-data', '/home/liam-epam/Collibra/workspace'
+    '-data', '/home/liamattard/Documents/eclipse-workspace'
   },
 
   -- 💀

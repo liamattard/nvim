@@ -20,7 +20,7 @@ db.custom_center = {
 		icon = " ",
 		desc = "New File            ",
 		action = "DashboardNewFile",
-		shortcut = "SPC o",
+		shortcut = "",
 
 	},
 	{
@@ -28,28 +28,28 @@ db.custom_center = {
 
 		desc = "Browse Files        ",
 		action = "Telescope file_browser",
-		shortcut = "SPC n",
+		shortcut = "",
 	},
 	{
 		icon = " ",
 		desc = "Find File           ",
 		action = "Telescope find_files",
-		shortcut = "SPC f",
+		shortcut = "",
 	},
 	{
 		icon = " ",
 		desc = "Configure Neovim    ",
 		action = "edit ~/.config/nvim/",
-		shortcut = "SPC v",
+		shortcut = "",
 	},
 	{
 		icon = " ",
-		desc = "Exit Neovim              ",
+		desc = "Exit Neovim         ",
 
 		action = "quit",
 	},
 }
 
-db.custom_footer = {"hi"}
+db.custom_footer = {}
 vim.keymap.set("n", "<Leader>o", ":DashboardNewFile<CR>", { silent = true })
 

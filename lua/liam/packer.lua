@@ -47,5 +47,6 @@ return require('packer').startup(function(use)
 
 
     use 'mfussenegger/nvim-dap'
+
 end)
 
